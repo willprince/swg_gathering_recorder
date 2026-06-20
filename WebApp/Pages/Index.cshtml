@@ -1,10 +1,47 @@
-﻿@page
+@page
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
+    var lines = ReadLines(@"C:\SWG Restoration\x64\profiles\elderjedi\Restoration\207157398034_chatlog.txt");
 }
-
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+
+<ul>
+    @foreach (var line in lines)
+    {
+        <li>@line</li>
+    }
+</ul>
+
+@functions {
+    public static List<string> ReadLines(string filePath)
+    {
+        var lines = new List<string>();
+
+        if (!System.IO.File.Exists(filePath))
+        {
+            return lines;
+        }
+
+        // FileShare.ReadWrite : permet de lire le fichier même si le jeu
+        // (SWG) l'a encore ouvert en écriture pour y ajouter du chat.
+        using var stream = new System.IO.FileStream(
+            filePath,
+            System.IO.FileMode.Open,
+            System.IO.FileAccess.Read,
+            System.IO.FileShare.ReadWrite);
+
+        using var reader = new System.IO.StreamReader(stream);
+
+        string? line;
+        while ((line = reader.ReadLine()) != null)
+        {
+            lines.Add(line);
+        }
+
+        return lines;
+    }
+}

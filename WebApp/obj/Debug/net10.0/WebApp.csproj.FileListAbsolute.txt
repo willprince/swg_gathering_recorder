@@ -24,7 +24,6 @@ C:\Users\willi\Repos\swg_gathering_recorder\WebApp\obj\Debug\net10.0\scopedcss\b
 C:\Users\willi\Repos\swg_gathering_recorder\WebApp\obj\Debug\net10.0\scopedcss\projectbundle\WebApp.bundle.scp.css
 C:\Users\willi\Repos\swg_gathering_recorder\WebApp\obj\Debug\net10.0\compressed\cyyammxk5f-{0}-b9sayid5wm-b9sayid5wm.gz
 C:\Users\willi\Repos\swg_gathering_recorder\WebApp\obj\Debug\net10.0\compressed\r0eh6qul5j-{0}-61n19gt1b8-61n19gt1b8.gz
-C:\Users\willi\Repos\swg_gathering_recorder\WebApp\obj\Debug\net10.0\compressed\gd9znr7z8k-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 C:\Users\willi\Repos\swg_gathering_recorder\WebApp\obj\Debug\net10.0\compressed\siwt0tsb8r-{0}-bqjiyaj88i-bqjiyaj88i.gz
 C:\Users\willi\Repos\swg_gathering_recorder\WebApp\obj\Debug\net10.0\compressed\lfp1ivp953-{0}-c2jlpeoesf-c2jlpeoesf.gz
 C:\Users\willi\Repos\swg_gathering_recorder\WebApp\obj\Debug\net10.0\compressed\ldq9vexem1-{0}-erw9l3u2r3-erw9l3u2r3.gz
@@ -96,3 +95,5 @@ C:\Users\willi\Repos\swg_gathering_recorder\WebApp\obj\Debug\net10.0\refint\WebA
 C:\Users\willi\Repos\swg_gathering_recorder\WebApp\obj\Debug\net10.0\WebApp.pdb
 C:\Users\willi\Repos\swg_gathering_recorder\WebApp\obj\Debug\net10.0\WebApp.genruntimeconfig.cache
 C:\Users\willi\Repos\swg_gathering_recorder\WebApp\obj\Debug\net10.0\ref\WebApp.dll
+C:\Users\willi\Repos\swg_gathering_recorder\WebApp\obj\Debug\net10.0\compressed\gd9znr7z8k-{0}-b3evy44epu-b3evy44epu.gz
+C:\Users\willi\Repos\swg_gathering_recorder\WebApp\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
