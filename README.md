@@ -20,3 +20,5 @@ But in later phases I might add items xp and more. Open to sugestions.
 
 ## Notes
 Hope you find it useful when it release!
+
+In honor of Pierre
