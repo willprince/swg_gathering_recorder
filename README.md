@@ -18,6 +18,11 @@ My initial goal is to record all material in a simple table.
 ## PhaseX
 But in later phases I might add items xp and more. Open to sugestions.
 
+## Dev
+```bash
+dotnet watch --project ./WebApp
+```
+
 ## Notes
 Hope you find it useful when it release!
 
